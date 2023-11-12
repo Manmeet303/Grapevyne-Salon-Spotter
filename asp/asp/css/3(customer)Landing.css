@@ -1,0 +1,286 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+
+  /* .c1{
+
+background-image: url('../Assets/Images/s9.png');
+background-size: cover;
+
+} */
+  /* Navbar styles */
+  nav {
+    background-color: #171717;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+
+  }
+
+  nav ul li {
+    margin-right: 1rem;
+  }
+
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+
+  /* Header styles */
+  header {
+    background-image: url('../Images/s10.png');
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    color: #fff;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    padding-left: 40px;
+
+  }
+
+  header h1 {
+
+
+    margin-top: 8rem;
+    font-size: 4.5rem;
+    margin-bottom: 2rem;
+
+
+  }
+
+  header h2 {
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+    padding-left: 60px;
+  }
+
+  header a {
+    background-color: #fff;
+    color: #333;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    width: 12%;
+    margin-bottom: 15rem;
+    left: 8%;
+    position: relative;
+    text-align: center;
+
+  }
+
+  header a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+
+  /* Services styles */
+  .services {
+    padding: 1rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .he2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 6rem;
+  }
+
+  .service {
+    margin: 2rem;
+    width: 300px;
+    text-align: center;
+
+  }
+
+  .service img {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    height: 200px;
+
+  }
+
+  .service h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .service p {
+    margin-bottom: 1rem;
+  }
+
+  .service a {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+
+  .service a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+
+  /* About styles */
+  .about {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+
+  .about h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .about p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .about a {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+
+  .about a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+
+  @media(max-width:1246px) {
+    header {
+      background-image: url('./Images/s10.png');
+      background-size: 88rem;
+    }
+
+    header h1 {
+      margin-top: 8rem;
+      font-size: 4rem;
+      margin-bottom: 2rem;
+    }
+
+    header h2 {
+      font-size: 1.5rem;
+      margin-bottom: 2.5rem;
+      padding-left: 60px;
+    }
+
+    header a {
+      text-align: center;
+      background-color: #fff;
+      color: #333;
+      padding: 0.7rem;
+      border-radius: 2rem;
+      font-weight: bold;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      width: 15%;
+      margin-bottom: 15rem;
+      left: 8%;
+      position: relative;
+
+
+    }
+
+    header a:hover {
+      background-color: #333;
+      color: #fff;
+    }
+
+  }
+
+
+
+
+  @media(max-width:960px) {
+
+
+
+
+
+    header a {
+      text-align: center;
+      background-color: #fff;
+      color: #333;
+      padding: 0.7rem;
+      border-radius: 2rem;
+      font-weight: bold;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      width: 18%;
+      margin-bottom: 15rem;
+      left: 8%;
+      position: relative;
+      font-size: 0.9rem;
+      margin-left: 1.5rem;
+    }
+
+    header a:hover {
+      background-color: #333;
+      color: #fff;
+    }
+  }
+
+  @media(max-width:700px) {
+    header {
+      background-image: url('./Images/s4.png');
+      background-size: cover;
+    }
+
+    header h1 {
+      margin-top: 8rem;
+      font-size: 3.5rem;
+      margin-bottom: 2rem;
+    }
+
+    header h2 {
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+      padding-left: 60px;
+    }
+
+    header a {
+      text-align: center;
+      width: 18%;
+      font-size: 0.7rem;
+      padding: 0.5rem;
+      margin-left: 2.5rem;
+
+    }
+  }

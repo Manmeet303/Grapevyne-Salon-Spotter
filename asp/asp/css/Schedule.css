@@ -1,0 +1,184 @@
+body {
+    background-image: url("../Img/bg7_new.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: black;
+
+    /* background-color: rgba(174, 161, 191, 0.507); */
+}
+
+.flex-container div {
+    /* background-color: #ece9f0; */
+    border-bottom: 1.5px solid rgba(120, 113, 113, 0.483);
+    margin: 10px;
+    /* padding-top: px; */
+    padding-bottom: 2px;
+    font-size: 20px;
+}
+
+.first {
+    display: inherit;
+    justify-content: space-between;
+}
+
+.sec {
+    display: inherit;
+    justify-content: space-between;
+}
+.loc{
+    text-align: right;
+    background: inherit;
+}
+.op{
+    background-color: rgba(120, 93, 138, 0.322) ;
+    /* border-radius: 50%; */
+}
+
+#appt{
+    padding: 2px;
+    background: inherit;
+    background-color: #9c717127;
+    border-radius: 10px;
+}
+
+.check1 {
+    height: 90px;
+    overflow-y: scroll;
+}
+
+.check2 {
+    height: 90px;
+    overflow-y: scroll;
+}
+
+.declare {
+    text-align: center;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(46, 46, 46, 0.116);
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(155, 41, 193, 0.309);
+    /* background: rgba(240, 234, 241, 0.309); */
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(155, 41, 193, 0.536);
+}
+
+.modal_popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* overflow: auto; */
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content */
+.modal-content_popup {
+    padding: 0;
+    position: relative;
+    background-color: #9c717127;
+    margin: auto;
+    border: 0px solid #e01c1c00;
+    width: 70%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.5s;
+    animation-name: animatetop;
+    animation-duration: 0.6s;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+/* The Close Button */
+.close_popup {
+    color: rgb(38, 37, 37);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.close_popup:hover,
+.close_popup:focus {
+    color: #c61b1b;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header_popup {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    background-color: #ffffff00;
+    color: rgb(29, 1, 38);
+    text-align: center;
+
+}
+
+.flex-container_popup {
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(78, 85, 92, 0.295); */
+}
+
+.flex-container_popup div {
+    /* background-color: #b5878741; */
+    margin: 6px;
+    padding: 3px;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+}
